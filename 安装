@@ -1,0 +1,26 @@
+一.安装node
+1.通过以下命令确认是否安装node和npm
+node -v
+npm  -v
+2.如果未安装可转至https://nodejs.org/en/download/下载合适版本，用1中命令洁厕是否安装成功
+3.如果安装，应保证版本在4以上
+
+二.安装vue脚手架
+1.npm install vue-cli -g ，全局安装vue脚手架
+2.npm init webpack project-name
+3.cd project-name
+4.npm install
+5.npm run dev
+执行完毕后出现以下界面
+
+1.1 -g  --save  --save-dev
+-g表示全局安装
+--save安装的包对应package.json中的dependencies，表示开发完成线上运行时使用的；
+--save-dev安装的包对应package.json中的devDependencies，表示开发过程使用的；
+有的时候看到package.json中安装的模块版本号前面有一个波浪线。例如: ~1.2.3 这里表示安装1.2.x以上版本。但是不安装1.3以上。
+注：安装过程中遇到eslint，建议选择n
+2.1 webpack和webpack-simple
+webpack-simple比webpack少了eslint的功能
+5.1 run
+npm run dev是运行项目，npm run build是执行发布
+注：关于webstorm配置vue的文章可参考http://www.jianshu.com/p/16c90db79886
