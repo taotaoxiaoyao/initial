@@ -7,7 +7,7 @@ npm  -v
 
 二.安装vue脚手架
 1.npm install vue-cli -g ，全局安装vue脚手架
-2.npm init webpack project-name
+2.vue init webpack project-name
 3.cd project-name
 4.npm install
 5.npm run dev
